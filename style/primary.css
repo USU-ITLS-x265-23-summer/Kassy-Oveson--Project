@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    background-color: #00008B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  fieldset {
+    background-color: #F5F5F5;
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+  }
+  
+  .light-gray {
+    background-color: #F5F5F5;
+  }
+  
+  .dark-blue {
+    background-color: #00008B;
+    color: #FFFFFF;
+  }
+  
+  .centered {
+    text-align: center;
+  }
