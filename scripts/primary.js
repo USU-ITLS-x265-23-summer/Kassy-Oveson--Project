@@ -3,14 +3,16 @@ const MAX_GRADE_LEVEL = 9;
 const today = new Date();
 const dateString = today.toLocaleDateString();
 
-const url = "https://api.example.com/date";
+const url = "https://www.googleapis.com/calendar/v3/calendars/primary/events?access_token=YOUR_API_KEY";
+const interval = setInterval(() => {
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      const newDateString = data.date;
+      document.getElementById("date").innerHTML = newDateString;
+    });
+}, 1000);
 
-fetch(url)
-  .then((response) => response.json())
-  .then((data) => {
-    const newDateString = data.date;
-    document.getElementById("date").innerHTML = newDateString;
-  });
 function validateForm() {
   var gradeLevel = document.getElementById("grade-level").value;
   var teacherName = document.getElementById("teacher-name").value;

@@ -15,7 +15,18 @@
     <h2>Daily Lunch Count</h2>
     <p>Please fill out this form with the required information</p>
         <fieldset>
-        <label for="grade-level">Enter the grade level: <input id="grade-level" type="text" name="grade-level" required /></label>
+        <label for="grade-level">Enter the grade level: <select id="grade-level" type="select" name="grade-level" required
+            <option value="">(select one)</option>
+            <option value="1">1st grade</option>
+            <option value="2">2nd grade</option>
+            <option value="3">3rd grade</option>
+            <option value="4">4th grade</option>
+            <option value="5">5th grade</option>
+            <option value="6">6th grade</option>
+            <option value="7">7th grade</option>
+            <option value="8">8th grade</option>
+            <option value="9">9th grade</option>
+            
         <label for="teacher-name">Enter Teachers Name: <input id="teacher-name" type="text" required name="teacher-name" /></label>
         <label for="hot-lunch">Number of Hot Lunch: <input id="hot-lunch" type="text" required name="hot-lunch" /></label>
         <label for="hot-lunch-allergy">Number of Hot Lunch with allegies: <input id="hot-lunch-allergy" type="text" /></label>
