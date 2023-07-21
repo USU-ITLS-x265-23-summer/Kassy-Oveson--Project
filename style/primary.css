@@ -1,16 +1,22 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 10;
+    padding: 30px;
   }
   
   h1 {
     background-color: #00008B;
     color: #FFFFFF;
     text-align: center; 
-    border: 1px solid #0008b;
-    
+    border: 10px solid #0008B; 
+    padding: 30px; 
 }
+h2 {
+    background-color: #6f6f92;
+    color: #FFFFFF;
+    text-align: center; 
+    border: 10px solid #0008B; 
+    padding: 30px;
 
   }
   
@@ -21,6 +27,7 @@ body {
   
   input {
     width: 100%;
+    height: 20px;
     padding: 10px;
     border: 1px solid #CCCCCC;
   }
@@ -33,7 +40,20 @@ body {
     background-color: #00008B;
     color: #FFFFFF;
   }
-  
+  input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: #00008B;
+    color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+
+  }
+  input[type="submit"] {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
   .centered {
     text-align: center;
   }
