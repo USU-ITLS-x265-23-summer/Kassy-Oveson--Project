@@ -1,1 +1,24 @@
-ht
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>OPERATION LUNCH COUNT</title>
+    <link rel="stylesheet" href="primary.css" />
+      <script src="primary.js"></script>
+    </head>
+  </head>
+  <body>
+    <h1>Daily Lunch Count</h1>
+    <p>Please fill out this form with the required information</p>
+        <fieldset>
+        <label for="grade-level">Enter the grade level: <input id="grade-level" type="text" name="grade-level" required /></label>
+        <label for="teacher-name">Enter Teachers Name: <input id="teacher-name" type="text" required name="teacher-name" /></label>
+        <label for="hot-lunch">Number of Hot Lunch: <input id="hot-lunch" type="text" required name="hot-lunch" /></label>
+        <label for="hot-lunch-allergy">Number of Hot Lunch with allegies: <input id="hot-lunch-allergy" type="text" /></label>
+        <label for="cold-lunch">Number of Cold Lunch: <input id="cold-lunch" type="text" required name="cold-lunch" /></label>
+        <label for="cold-lunch-allergy">Number of Cold Lunch with allergies: <input id="cold-lunch-allergy" type="text" /></label>
+        <label for="staff-lunch">Number of Staff Lunch: <input id="staff-lunch" type="text" /></label>
+        <input type="submit" value="Submit" onclick="return validateForm();" />
+        </fieldset>
+  </body>
+</html>
