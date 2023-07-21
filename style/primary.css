@@ -1,14 +1,17 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
   
   h1 {
     background-color: #00008B;
     color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
+    text-align: center; 
+    border: 1px solid #0008b;
+    
+}
+
   }
   
   fieldset {
@@ -17,7 +20,7 @@ body {
   }
   
   input {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #CCCCCC;
   }
