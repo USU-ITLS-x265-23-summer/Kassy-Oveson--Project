@@ -7,15 +7,20 @@
    <title>Lakeview Academy</title>
 
     <link rel="stylesheet" href="style/primary.css" />
-      <script src="scripts/primary.js"></script>
+      
     </head>
   </head>
   <body>
     <h1>OPERATION LUNCH COUNT</h1>
-    <h2>Daily Lunch Count</h2>
+    <h2>Daily Lunch Count
+      <span id=date></span>
+    </h2>
     <p>Please fill out this form with the required information</p>
+    <div class="form-and-menu">
+
+  
         <fieldset>
-        <label for="grade-level">Enter the grade level: <select id="grade-level" type="select" name="grade-level" required
+        <label for="grade-level"><div class="enter">Enter the grade level:</div><select id="grade-level" type="select" name="grade-level" required>
             <option value="">(select one)</option>
             <option value="1">1st grade</option>
             <option value="2">2nd grade</option>
@@ -26,7 +31,8 @@
             <option value="7">7th grade</option>
             <option value="8">8th grade</option>
             <option value="9">9th grade</option>
-            
+            </select></label>
+
         <label for="teacher-name">Enter Teachers Name: <input id="teacher-name" type="text" required name="teacher-name" /></label>
         <label for="hot-lunch">Number of Hot Lunch: <input id="hot-lunch" type="text" required name="hot-lunch" /></label>
         <label for="hot-lunch-allergy">Number of Hot Lunch with allegies: <input id="hot-lunch-allergy" type="text" /></label>
@@ -35,5 +41,29 @@
         <label for="staff-lunch">Number of Staff Lunch: <input id="staff-lunch" type="text" /></label>
         <input type="submit" value="Submit" onclick="return validateForm();" />
         </fieldset>
-  </body>
+        <div class="menu">
+          Menu
+          <div class="days-of-week">
+            <div class="sub-lunch-type"
+          <p id="days-of-week">Monday</p>
+          <p id="sub-lunch-type"><sub>Hot Lunch: Hamburgers & fries</sub></p>
+          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <p id="days-of-week">Tuesday</p>
+          <p id="sub-lunch-type"><sub>Hot Lunch: Pizza & Salad</sub></p>
+          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <p id="days-of-week">Wednesday</p>
+          <p id="sub-lunch-type"><sub>Speggetti & bread stick</sub></p>
+          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <p id="days-of-week">Thursday</p>
+          <p id="sub-lunch-type"><sub>Hot Lunch: Ramon Noodle Bowl</sub></p>
+          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <p id="days-of-week">Friday</p>
+          <p id="sub-lunch-type"><sub>Hot Lunch: Not offered</sub></p>
+          <p id="sub-lunch-type"><sub>Cold Lunch: Lunchable</sub></p>
+          
+        </div>
+      </div>
+      </div>
+      <script src="scripts/primary.js"></script>
+  </body>  
 </html>
