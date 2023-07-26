@@ -15,7 +15,7 @@
     <h2>Daily Lunch Count
       <span id=date></span>
     </h2>
-    <p>Please fill out this form with the required information</p>
+    <p class="instructions">Please fill out this form with the required information</p>
     <div class="form-and-menu">
 
   
@@ -42,28 +42,30 @@
         <input type="submit" value="Submit" onclick="return validateForm();" />
         </fieldset>
         <div class="menu">
-          Menu
           <div class="days-of-week">
-            <div class="sub-lunch-type"
-          <p id="days-of-week">Monday</p>
-          <p id="sub-lunch-type"><sub>Hot Lunch: Hamburgers & fries</sub></p>
-          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
-          <p id="days-of-week">Tuesday</p>
-          <p id="sub-lunch-type"><sub>Hot Lunch: Pizza & Salad</sub></p>
-          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
-          <p id="days-of-week">Wednesday</p>
-          <p id="sub-lunch-type"><sub>Speggetti & bread stick</sub></p>
-          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
-          <p id="days-of-week">Thursday</p>
-          <p id="sub-lunch-type"><sub>Hot Lunch: Ramon Noodle Bowl</sub></p>
-          <p id="sub-lunch-type"><sub>Cold Lunch: Deli Sandwhich & chips</sub></p>
-          <p id="days-of-week">Friday</p>
-          <p id="sub-lunch-type"><sub>Hot Lunch: Not offered</sub></p>
-          <p id="sub-lunch-type"><sub>Cold Lunch: Lunchable</sub></p>
+        <div class="menu-heading">Menu</div>
+         
+          <div class="lunch-type">
+          <h3 id="days-of-week">Monday</h3>
+          <p id="lunch-type">-Hot Lunch: Hamburgers & fries</p>
+          <p4 id="lunch-type">-Cold Lunch: Deli Sandwhich & chips</p4>
+          <h3 id="days-of-week">Tuesday</h3>
+          <p4 id="lunch-type">-Hot Lunch: Pizza & Salad</p4>
+          <p id="lunch-type">-Cold Lunch: Deli Sandwhich & chips</p>
+          <h3 id="days-of-week">Wednesday</h3>
+          <p id="lunch-type"><sub>-Hot Lunch: Speggetti & bread stick</sub></p>
+          <p id="lunch-type"><sub>-Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <h3 id="days-of-week">Thursday</h3>
+          <p id="lunch-type"><sub>-Hot Lunch: Ramon Noodle Bowl</sub></p>
+          <p id="lunch-type"><sub>-Cold Lunch: Deli Sandwhich & chips</sub></p>
+          <h3 id="days-of-week">Friday</h3>
+          <p id="sub-lunch-type"><sub>-Hot Lunch: Not offered</sub></p>
+          <p id="sub-lunch-type"><sub>-Cold Lunch: Lunchable</sub></p>
           
         </div>
       </div>
       </div>
+    </div>
       <script src="scripts/primary.js"></script>
   </body>  
 </html>
