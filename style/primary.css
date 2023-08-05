@@ -24,7 +24,7 @@ h2 {
   }
   .instructions {
     text-align: center; 
-    font-size: 20px;
+    font-size: 30px;
     border: 15px;
     padding: 40px;
     position: center;
@@ -43,18 +43,21 @@ padding: 10px;
     padding: 20px;
     font-size: 20px;
     width: 50%;
-
+    border: 1px solid black;
+  border-radius: 10px;
   }
+ 
   .menu {
-    background-color: #00008B;
+    background-color: whitesmoke;
     margin-top: 20px;
     padding: 20px;
-    font-size: 60px;
+    font-size: 40px;
     width: 50%;
-    color: #FFFFFF;
+    color: black;
     display:flex;
     justify-content: center;
-
+    border: 1px solid black;
+    border-radius: 10px;
   }
   .menu-heading {
     
@@ -65,18 +68,20 @@ padding: 10px;
   
   .days-of-week {
     
-    width: 400px;
+    width: 600px;
   }
   h3 {
-    font-size: 40px;
-
+    font-size: 20px;
+width: 550px;
+text-decoration: underline;
 
    
     
   }
   .lunch-type {
-    font-size: 20px;
-    width: 100%;
+    font-size: 15px;
+    width: 600px;
+    
    
 
   }
